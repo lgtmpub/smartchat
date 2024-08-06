@@ -3,6 +3,7 @@ module github.com/lgtmpub/smartchat
 go 1.22.5
 
 require (
+	github.com/btcsuite/btcd/btcutil v1.1.5
 	github.com/common-nighthawk/go-figure v0.0.0-20210622060536-734e95fb86be
 	github.com/fatih/color v1.17.0
 	github.com/google/uuid v1.6.0

@@ -6,7 +6,7 @@ test: dependencies lint vet fmt
 	go test ./... -race -v -coverprofile cover.out
 
 benchmark:
-	go test -bench=. ./...
+	go test -bench=. -benchmem ./...
 
 dependencies:
 	go mod download
